@@ -2,6 +2,12 @@ import mongoose from "mongoose";
 
 const bookingSchema = new mongoose.Schema(
   {
+    tourId:{
+      type: String,
+    },
+    tourName:{
+      type: String,
+    },
     userId: {
       type: String,
     },
